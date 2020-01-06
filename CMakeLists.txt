@@ -22,4 +22,3 @@ message(STATUS "[submodule-test dir]: ${submodule-test_SOURCE_DIR}")
 
 target_include_directories(using-fetchcontent PRIVATE "${submodule-test_SOURCE_DIR}/include")
 target_link_libraries(using-fetchcontent sub::module1)
-
